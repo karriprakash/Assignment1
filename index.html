@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Job Application</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="main">
+            <div id="heading1">
+                <header ><h1>Job Application</h1></header>
+            </div>
+            <!-- Section -->
+            <div id="personal">
+                <section>
+                    <header class="a"><strong>Personal Details</strong></header>
+                    <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="First Name" >
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="mail" id="email" placeholder="Example@email.com">
+                    <br>
+                    <label for="mobile">Mobile:</label>
+                    <input type="number" id="mobile" placeholder="+91 0123456789">
+                    <br>
+                    <label for="dob">DOB:</label>
+                    <input type="date" id="dob">
+                    <br>
+                    <label for="gender">Gender</label>
+                    <input type="radio">Male
+                    <input type="radio">Female
+                    <input type="radio">Custom
+                    <br>
+                    <label id="address">Address:</label>
+                    <textarea name="address" id="" cols="30" rows="3"></textarea>
+                    <br>
+                </form>
+                </section>
+            </div>
+
+            <!-- Educational Details -->
+            <div id="educational">
+                <header>Educational Details</header>
+                <section>
+                    <form action="" >
+                        <label for="qualification" id="qualify">Qualification:</label>
+                        <select name="" id="qualify" style="background-color: rgb(231, 171, 160);">
+                            <option class="b" value="BE">BE</option>
+                            <option value="B-TECH">B-TECH</option>
+                            <option class="b" value="B.COM">B.COM</option>
+                            <option value="MCA">MCA</option>
+                            <option class="b" value="Others">Others</option>
+                        </select>
+                        <br>
+                        <label for="Stream">Stream:</label>
+                        <select name="" id="stream" style="background-color: rgb(161, 195, 235)">
+                            <option class="b" value="Mechanical">Mechanical</option>
+                            <option value="CSE/IT">CSE/IT</option>
+                            <option class="b" value="Civil">Civil</option>
+                            <option value="EEE/EE">EEE/EE</option>
+                            <option class="b" value="ECE">ECE</option>
+                            <option value="Others">Others</option>
+                        </select>
+                        <br>
+                        <label for="yop">Year of Pass</label>
+                        <select name="yos" id="yos" style="background-color: rgb(233, 167, 156)">
+                            <option class="b" value="">2021</option>
+                            <option value="">2020</option>
+                            <option class="b" value="">2019</option>
+                            <option value="">2018</option>
+                            <option class="b" value="">2017</option>
+                            <option value="">2016</option>
+                            <option class="b" value="">others</option>
+                        </select>
+                    </form>
+                    <label for="">Percentage</label>
+                    <textarea name="" id="" cols="2" rows="1"></textarea>
+                </section>
+            </div>
+
+            <!-- Skill Set -->
+        <div id="skills">
+            <header>Skill Set</header>
+            <label for=""><strong>Java</strong></label>
+            <input type="checkbox">
+            <label for=""><strong>C</strong></label>
+            <input type="checkbox">
+            <label for=""><strong>Python</strong></label>
+            <input type="checkbox" >
+            <label for=""><strong>SQL</strong></label>
+            <input type="checkbox">
+            <label for=""><strong>Java Full Stack Web Development</strong></label>
+            <input type="checkbox">
+            <label for=""><strong>Python Full Stack Web Development</strong></label>
+            <input type="checkbox">
+        </div>
+        <div id="work">
+        <!-- Work Preferences -->
+        <header>Work Preferences</header>
+        <label for=""><strong>Preferred Location: </strong> </label>
+        <label for=""><strong>Banglore</strong></label>
+        <input type="checkbox">
+        <label for=""><strong>Chennai</strong></label>
+        <input type="checkbox">
+        <label for=""><strong>Pune</strong></label>
+        <input type="checkbox">        
+        </div>
+        <div id="resume">
+            <label for=""><strong>Upload Resume:</strong></label>
+            <input type="file">
+            <br>            
+            <input type="checkbox">
+            <span><strong>I agree with all terms and conditions</strong></span>            
+        </div>
+        <div id="resume1">
+            <input type="reset">
+            <input type="submit">
+            
+        </div>
+        </div>
+    </body>
+</html>

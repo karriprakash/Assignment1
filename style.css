@@ -1,0 +1,132 @@
+#heading{
+    background-color: rgb(241, 137, 137);
+    
+}
+
+#educational{
+    padding: 15px;
+    border-bottom: 4px rgb(11, 153, 235) solid;
+    background-color: rgb(168, 145, 223);
+    bottom: 10px;
+    position: relative;
+    margin-top: 10px;
+    font-style: oblique;
+    color: #1b073b;     
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header{
+    color: rgb(150, 7, 150);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#heading1{
+    border: 4px rgb(115, 14, 231) double;
+    position: relative;
+    bottom: 20px;
+    box-shadow: 5px 10px rgb(221, 105, 105);
+    color: red;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: rgb(224, 238, 148);
+
+}
+#personal{
+    background-color: rgb(168, 145, 223);
+    border-bottom: 4px rgb(11, 153, 235) solid;
+    position: relative;
+    bottom: 10px;
+    overflow: hidden;
+    
+    
+    padding: 5px;
+    font-style: oblique;
+    color: #1b073b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#skills{
+    background-color: rgb(223, 145, 149);   
+    top: 10px;
+    border-bottom: 4px rgb(70, 36, 223) solid;    
+    overflow: hidden;
+    padding: 5px;
+    font-style: oblique;
+    color: #1b073b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#work{
+    background-color: rgb(223, 145, 149);
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+    border-bottom: 4px rgb(70, 36, 223) solid;    
+    padding: 5px;
+}
+
+#resume{
+    position: relative;
+    top: 20px;
+    background-color: rgb(223, 145, 149);
+    border-bottom: 4px rgb(70, 36, 223) solid;    
+    padding: 5px;
+}
+
+#resume1{
+    position: relative;
+    top: 30px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: lightgray;
+    border: 2px black solid;
+}
+
+input{
+    margin: 10px;
+    border: none;
+    border-bottom: 2px #54a2aa solid;
+    background-color: #e699ef;    
+}
+textarea{
+    background-color: #b0e7c7;
+    border-bottom: 4px #d43013 solid;
+}
+.b{
+    background-color: #c5f1c8; 
+    font-weight: lighter;   
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 5px 10px rgb(231, 14, 14);
+}
+option {
+    background-color: #eb9b87;
+    border-radius: 50%;
+    box-shadow: 5px 10px rgb(231, 14, 14);
+}
+
+select{
+    margin: 10px;
+}
+
+#resume1{
+    background-color: rgb(145, 223, 171);
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top:4px #5808da double;
+    
+}
+
+span{
+    color: rgb(11, 153, 235);
+}
+
+
